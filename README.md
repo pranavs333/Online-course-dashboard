@@ -51,15 +51,18 @@ Line/Area Chart: Monthly Enrollment Trend
 Scatter Plot: Correlation between Progress and Rating
 
 🔍 Interactivity:
+
 Drill-through: From summary to individual student details
 Slicers: Filter by Course Category, Country, and Experience Level
 
 💡 Tools Used
+
 Microsoft Excel: Data wrangling, transformation
 Power BI: Dashboard creation, DAX measures
 DAX (Data Analysis Expressions): Custom KPIs and visuals
 
 📌 Project Goals
+
 Identify trends in student performance and behavior.
 Build robust data pipelines for cleaning and feature creation.
 Design dynamic dashboards for stakeholders and educators.
