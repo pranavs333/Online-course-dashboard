@@ -21,6 +21,7 @@ Session_Attendance (comma-separated session dates)
 🧹 Part 1: Excel – Advanced Data Cleaning
 
 ✅ Key Cleaning Tasks:
+
 Normalize Time_Spent: Convert to hours (e.g., "30 mins" → 0.5).
 Fix Age: Impute missing/invalid entries using mean or median.
 Sessions Count: Extract number of sessions from Session_Attendance.
@@ -34,17 +35,20 @@ Engagement_Level: Derived from Time_Spent + Progress.
 📈 Part 2: Power BI – Interactive Dashboard
 
 📄 Multi-Page Layout:
+
 Overview Page: KPIs, summary metrics.
 Category Analysis: Deep-dive by course category.
 Engagement Heatmap: Visualize student interaction levels.
 
 🧮 KPIs:
+
 Total Students
 Average Progress
 Average Feedback Rating
 Course Completion Rate
 
 📊 Visualizations:
+
 Bar/Column Charts: Students by Category, Completion by Country
 Matrix Table: Cross-tab → Course vs Feedback Rating
 Line/Area Chart: Monthly Enrollment Trend
