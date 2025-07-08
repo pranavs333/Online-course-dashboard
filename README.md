@@ -19,6 +19,7 @@ Completed (values like "Y", "Yes", "1", "No", etc.)
 Feedback_Rating (1 to 5, some blank/out of range)
 Session_Attendance (comma-separated session dates)
 🧹 Part 1: Excel – Advanced Data Cleaning
+
 ✅ Key Cleaning Tasks:
 Normalize Time_Spent: Convert to hours (e.g., "30 mins" → 0.5).
 Fix Age: Impute missing/invalid entries using mean or median.
@@ -28,28 +29,36 @@ High Performer Flag: Define as Completed = Yes AND Rating ≥ 4.
 New Features:
 Experience_Level: Based on Age (e.g., Student, Early Career).
 Engagement_Level: Derived from Time_Spent + Progress.
+
+
 📈 Part 2: Power BI – Interactive Dashboard
+
 📄 Multi-Page Layout:
 Overview Page: KPIs, summary metrics.
 Category Analysis: Deep-dive by course category.
 Engagement Heatmap: Visualize student interaction levels.
+
 🧮 KPIs:
 Total Students
 Average Progress
 Average Feedback Rating
 Course Completion Rate
+
 📊 Visualizations:
 Bar/Column Charts: Students by Category, Completion by Country
 Matrix Table: Cross-tab → Course vs Feedback Rating
 Line/Area Chart: Monthly Enrollment Trend
 Scatter Plot: Correlation between Progress and Rating
+
 🔍 Interactivity:
 Drill-through: From summary to individual student details
 Slicers: Filter by Course Category, Country, and Experience Level
+
 💡 Tools Used
 Microsoft Excel: Data wrangling, transformation
 Power BI: Dashboard creation, DAX measures
 DAX (Data Analysis Expressions): Custom KPIs and visuals
+
 📌 Project Goals
 Identify trends in student performance and behavior.
 Build robust data pipelines for cleaning and feature creation.
