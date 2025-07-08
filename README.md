@@ -3,6 +3,7 @@
 This project involves end-to-end data cleaning and visualization for an online course platform. The goal is to analyze student performance, engagement, and behavior using Excel and Power BI.
 
 📁 Dataset Overview
+
 Total Rows: 1,200
 Key Columns:
 Student_ID
